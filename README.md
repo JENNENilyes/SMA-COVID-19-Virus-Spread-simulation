@@ -16,15 +16,15 @@ Les individus infectés deviendront immunisés (la couleur passe au gris) selon 
 
 * Stationnary: Le curseur stationnaire permet à l'utilisateur de contrôler le nombre d'individus qui ne se déplacent pas (représentant la distance physique/sociale) dans l'espace du modèle.
 
-*Mobilité :Le curseur de mobilité permet à l'utilisateur de définir la distance à laquelle les individus non stationnaires se déplacent dans l'espace du modèle.
+* Mobilité :Le curseur de mobilité permet à l'utilisateur de définir la distance à laquelle les individus non stationnaires se déplacent dans l'espace du modèle.
 
-*Recovery-rate: Set the recovery.rate slider low for longer recovery time and high for quick recovery. Suggested recovery rate for the current virus is 0.15.
+* Recovery-rate: Set the recovery.rate slider low for longer recovery time and high for quick recovery. Suggested recovery rate for the current virus is 0.15.
 
-*Quarantine-effort: En ajustant le curseur quarantine.effort, les utilisateurs peuvent contrôler la capacité des individus infectés à infecter les personnes sensibles.
+* Quarantine-effort: En ajustant le curseur quarantine.effort, les utilisateurs peuvent contrôler la capacité des individus infectés à infecter les personnes sensibles.
 
-*Healthcare-capacity :Le curseur healthcare.capacity modifie la proportion de personnes infectées que les hôpitaux peuvent prendre en charge.
+* Healthcare-capacity :Le curseur healthcare.capacity modifie la proportion de personnes infectées que les hôpitaux peuvent prendre en charge.
 
-*Infected-mortality : Le curseur infected.mortality modifie le taux de mortalité de base pour les personnes infectées. Les estimations du taux de mortalité vont de 1 à 10 %, avec une moyenne d'environ 3,6 si l'on ne tient pas compte de la capacité des soins de santé.
+* Infected-mortality : Le curseur infected.mortality modifie le taux de mortalité de base pour les personnes infectées. Les estimations du taux de mortalité vont de 1 à 10 %, avec une moyenne d'environ 3,6 si l'on ne tient pas compte de la capacité des soins de santé.
 
 ![image](https://user-images.githubusercontent.com/64171895/155888448-18f9b51e-00ab-4aea-a84a-02e9f1c38e34.png)
 
@@ -32,9 +32,9 @@ Les individus infectés deviendront immunisés (la couleur passe au gris) selon 
 ## Agents
 •	Les individus : ce déplace d’une façon aléatoire dans l’environnement et ayant une vue locale sur ce dernier
 		Individus sains : couleur bleu
-		Individus infectés : couleur rouge, ce type peut infecter les individus 			sains qui se présentent près de lui
+		Individus infectés : couleur rouge, ce type peut infecter les individus sains qui se présentent près de lui
 		Individus immunes : couleur gris
 
 •	Hôpital : son rôle est le suivie sanitaire
-	- Inspecter les individus
--	Traiter les individus infectés (soit il est guérit ou il va mourir)
+		 Inspecter les individus
+		 Traiter les individus infectés (soit il est guérit ou il va mourir)
