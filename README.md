@@ -1,5 +1,8 @@
 # SMA-COVID-19-Virus-Spread-simulation
-Ce projet consiste à faire un système multi agent pour une simulation de la pandémie actuelle de COVID-19 pour faire face au diffèrent scenarios et faire des prédictions et des recommandations au public  
+Ce projet consiste à faire un système multi agent pour une simulation de la pandémie actuelle de COVID-19 pour faire face au diffèrent scenarios et faire des prédictions et des recommandations au public
+
+![image](https://user-images.githubusercontent.com/64171895/155948757-897de020-3e0c-434c-8d6a-28259f239a9a.png)
+
 
 ## Déroulement
 Une population initiale d'agents (personnes de couleur bleue) est placée aléatoirement dans l'espace modèle avec une population initiale d'individus infectés (rouge). Au fur et à mesure que le temps avance, les agents se déplacent aléatoirement dans l'espace modèle en fonction de paramètres spécifiés tels que le nombre d'individus stationnaires et la mobilité. Les individus infectés transmettent le virus aux individus sensibles en s'approchant à une certaine distance les uns des autres. Le fait que l'individu sensible soit infecté est déterminé par une probabilité aléatoire, dont la vraisemblance augmente avec le taux de transmission. 
